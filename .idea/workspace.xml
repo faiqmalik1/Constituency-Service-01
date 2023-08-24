@@ -1,0 +1,338 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="a1e2604c-7a60-4d55-9524-16cae34bc771" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/constituency-service/src/main/java/com/votingsystem/constituencyservice/controller/ConstituencyController.java" beforeDir="false" afterPath="$PROJECT_DIR$/constituency-service/src/main/java/com/votingsystem/constituencyservice/controller/ConstituencyController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/constituency-service/src/main/java/com/votingsystem/constituencyservice/controller/PoolingController.java" beforeDir="false" afterPath="$PROJECT_DIR$/constituency-service/src/main/java/com/votingsystem/constituencyservice/controller/PoolingController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/constituency-service/src/main/java/com/votingsystem/constituencyservice/feignController/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/constituency-service/src/main/java/com/votingsystem/constituencyservice/feignController/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/constituency-service/src/main/java/com/votingsystem/constituencyservice/resources/ModelToResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/constituency-service/src/main/java/com/votingsystem/constituencyservice/resources/ModelToResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/constituency-service/src/main/java/com/votingsystem/constituencyservice/service/ConstituencyService.java" beforeDir="false" afterPath="$PROJECT_DIR$/constituency-service/src/main/java/com/votingsystem/constituencyservice/service/ConstituencyService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/constituency-service/src/main/java/com/votingsystem/constituencyservice/service/PoolingService.java" beforeDir="false" afterPath="$PROJECT_DIR$/constituency-service/src/main/java/com/votingsystem/constituencyservice/service/PoolingService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/constituency-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/constituency-service/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/constituency-service/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/constituency-service/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/constituency-service/target/classes/com/votingsystem/constituencyservice/controller/ConstituencyController.class" beforeDir="false" afterPath="$PROJECT_DIR$/constituency-service/target/classes/com/votingsystem/constituencyservice/controller/ConstituencyController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/constituency-service/target/classes/com/votingsystem/constituencyservice/controller/PoolingController.class" beforeDir="false" afterPath="$PROJECT_DIR$/constituency-service/target/classes/com/votingsystem/constituencyservice/controller/PoolingController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/constituency-service/target/classes/com/votingsystem/constituencyservice/resources/ModelToResponse.class" beforeDir="false" afterPath="$PROJECT_DIR$/constituency-service/target/classes/com/votingsystem/constituencyservice/resources/ModelToResponse.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/constituency-service/target/classes/com/votingsystem/constituencyservice/service/ConstituencyService.class" beforeDir="false" afterPath="$PROJECT_DIR$/constituency-service/target/classes/com/votingsystem/constituencyservice/service/ConstituencyService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/constituency-service/target/classes/com/votingsystem/constituencyservice/service/PoolingService.class" beforeDir="false" afterPath="$PROJECT_DIR$/constituency-service/target/classes/com/votingsystem/constituencyservice/service/PoolingService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend-service/Frontend-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend-service/Frontend-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend-service/Frontend-service/src/main/java/com/votingsystem/frontendservice/controller/AdminController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend-service/Frontend-service/src/main/java/com/votingsystem/frontendservice/controller/AdminController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend-service/Frontend-service/src/main/java/com/votingsystem/frontendservice/controller/CandidateController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend-service/Frontend-service/src/main/java/com/votingsystem/frontendservice/controller/CandidateController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend-service/Frontend-service/src/main/java/com/votingsystem/frontendservice/controller/ConstituencyController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend-service/Frontend-service/src/main/java/com/votingsystem/frontendservice/controller/ConstituencyController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend-service/Frontend-service/src/main/java/com/votingsystem/frontendservice/controller/PartyManagementController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend-service/Frontend-service/src/main/java/com/votingsystem/frontendservice/controller/PartyManagementController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend-service/Frontend-service/src/main/java/com/votingsystem/frontendservice/controller/PollStatusController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend-service/Frontend-service/src/main/java/com/votingsystem/frontendservice/controller/PollStatusController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend-service/Frontend-service/src/main/java/com/votingsystem/frontendservice/controller/UserFormController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend-service/Frontend-service/src/main/java/com/votingsystem/frontendservice/controller/UserFormController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend-service/Frontend-service/src/main/java/com/votingsystem/frontendservice/feignController/CandidateFeignController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend-service/Frontend-service/src/main/java/com/votingsystem/frontendservice/feignController/CandidateFeignController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend-service/Frontend-service/src/main/java/com/votingsystem/frontendservice/feignController/ConstituencyFeignController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend-service/Frontend-service/src/main/java/com/votingsystem/frontendservice/feignController/ConstituencyFeignController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend-service/Frontend-service/src/main/java/com/votingsystem/frontendservice/feignController/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend-service/Frontend-service/src/main/java/com/votingsystem/frontendservice/feignController/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend-service/Frontend-service/src/main/java/com/votingsystem/frontendservice/feignController/VoterFeignController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend-service/Frontend-service/src/main/java/com/votingsystem/frontendservice/feignController/VoterFeignController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend-service/Frontend-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend-service/Frontend-service/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend-service/Frontend-service/src/main/resources/static/css/error.css" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend-service/Frontend-service/src/main/resources/static/ui/css/error.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend-service/Frontend-service/src/main/resources/static/css/party-management.css" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend-service/Frontend-service/src/main/resources/static/ui/css/party-management.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend-service/Frontend-service/src/main/resources/static/css/profile.css" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend-service/Frontend-service/src/main/resources/static/ui/css/profile.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend-service/Frontend-service/src/main/resources/static/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend-service/Frontend-service/src/main/resources/static/ui/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend-service/Frontend-service/src/main/resources/static/javascript/addConstituencyPopup.js" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend-service/Frontend-service/src/main/resources/static/ui/javascript/addConstituencyPopup.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend-service/Frontend-service/src/main/resources/static/javascript/popup.js" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend-service/Frontend-service/src/main/resources/static/ui/javascript/popup.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend-service/Frontend-service/src/main/resources/static/javascript/profilescript.js" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend-service/Frontend-service/src/main/resources/static/ui/javascript/profilescript.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend-service/Frontend-service/src/main/resources/templates/add-user.html" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend-service/Frontend-service/src/main/resources/templates/add-user.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend-service/Frontend-service/src/main/resources/templates/admin-panel.html" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend-service/Frontend-service/src/main/resources/templates/admin-panel.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend-service/Frontend-service/src/main/resources/templates/all-constituencies.html" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend-service/Frontend-service/src/main/resources/templates/all-constituencies.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend-service/Frontend-service/src/main/resources/templates/all-users.html" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend-service/Frontend-service/src/main/resources/templates/all-users.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend-service/Frontend-service/src/main/resources/templates/approved-candidates.html" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend-service/Frontend-service/src/main/resources/templates/approved-candidates.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend-service/Frontend-service/src/main/resources/templates/become_candidate.html" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend-service/Frontend-service/src/main/resources/templates/become_candidate.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend-service/Frontend-service/src/main/resources/templates/candidate-panel.html" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend-service/Frontend-service/src/main/resources/templates/candidate-panel.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend-service/Frontend-service/src/main/resources/templates/constituency-users.html" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend-service/Frontend-service/src/main/resources/templates/constituency-users.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend-service/Frontend-service/src/main/resources/templates/error.html" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend-service/Frontend-service/src/main/resources/templates/error.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend-service/Frontend-service/src/main/resources/templates/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend-service/Frontend-service/src/main/resources/templates/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend-service/Frontend-service/src/main/resources/templates/poll-status.html" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend-service/Frontend-service/src/main/resources/templates/poll-status.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend-service/Frontend-service/src/main/resources/templates/polling-results.html" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend-service/Frontend-service/src/main/resources/templates/polling-results.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend-service/Frontend-service/src/main/resources/templates/profile.html" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend-service/Frontend-service/src/main/resources/templates/profile.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend-service/Frontend-service/src/main/resources/templates/request-candidates.html" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend-service/Frontend-service/src/main/resources/templates/request-candidates.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend-service/Frontend-service/src/main/resources/templates/results.html" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend-service/Frontend-service/src/main/resources/templates/results.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend-service/Frontend-service/src/main/resources/templates/voter-list.html" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend-service/Frontend-service/src/main/resources/templates/voter-list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend-service/Frontend-service/src/main/resources/templates/voter-panel.html" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend-service/Frontend-service/src/main/resources/templates/voter-panel.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend-service/Frontend-service/src/main/resources/templates/votes.html" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend-service/Frontend-service/src/main/resources/templates/votes.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../user-candidate/candidate-service/src/main/java/com/voting/system/usercandidate/controller/CandidateController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../user-candidate/candidate-service/src/main/java/com/voting/system/usercandidate/controller/CandidateController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../user-candidate/candidate-service/src/main/java/com/voting/system/usercandidate/feignController/ConstituencyController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../user-candidate/candidate-service/src/main/java/com/voting/system/usercandidate/feignController/ConstituencyController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../user-candidate/candidate-service/src/main/java/com/voting/system/usercandidate/feignController/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../user-candidate/candidate-service/src/main/java/com/voting/system/usercandidate/feignController/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../user-candidate/candidate-service/src/main/java/com/voting/system/usercandidate/feignController/VoterController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../user-candidate/candidate-service/src/main/java/com/voting/system/usercandidate/feignController/VoterController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../user-candidate/candidate-service/src/main/java/com/voting/system/usercandidate/resources/request/CandidateRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../user-candidate/candidate-service/src/main/java/com/voting/system/usercandidate/resources/response/ModelToResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/../user-candidate/candidate-service/src/main/java/com/voting/system/usercandidate/resources/response/ModelToResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../user-candidate/candidate-service/src/main/java/com/voting/system/usercandidate/resources/response/UserResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/../user-candidate/candidate-service/src/main/java/com/voting/system/usercandidate/resources/response/UserResponseDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../user-candidate/candidate-service/src/main/java/com/voting/system/usercandidate/service/CandidateService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../user-candidate/candidate-service/src/main/java/com/voting/system/usercandidate/service/CandidateService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../user-candidate/candidate-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../user-candidate/candidate-service/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../voter-service/voter-service/src/main/java/com/votingsystem/voterservice/controller/VoteController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../voter-service/voter-service/src/main/java/com/votingsystem/voterservice/controller/VoteController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../voter-service/voter-service/src/main/java/com/votingsystem/voterservice/controller/VoterController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../voter-service/voter-service/src/main/java/com/votingsystem/voterservice/controller/VoterController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../voter-service/voter-service/src/main/java/com/votingsystem/voterservice/feignController/CandidateController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../voter-service/voter-service/src/main/java/com/votingsystem/voterservice/feignController/CandidateController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../voter-service/voter-service/src/main/java/com/votingsystem/voterservice/feignController/ConstituencyController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../voter-service/voter-service/src/main/java/com/votingsystem/voterservice/feignController/ConstituencyController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../voter-service/voter-service/src/main/java/com/votingsystem/voterservice/feignController/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../voter-service/voter-service/src/main/java/com/votingsystem/voterservice/feignController/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../voter-service/voter-service/src/main/java/com/votingsystem/voterservice/resources/ModelToResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/../voter-service/voter-service/src/main/java/com/votingsystem/voterservice/resources/ModelToResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../voter-service/voter-service/src/main/java/com/votingsystem/voterservice/service/VoterService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../voter-service/voter-service/src/main/java/com/votingsystem/voterservice/service/VoterService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../voter-service/voter-service/src/main/java/com/votingsystem/voterservice/service/VotesService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../voter-service/voter-service/src/main/java/com/votingsystem/voterservice/service/VotesService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../voter-service/voter-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../voter-service/voter-service/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../voter-service/voter-service/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../voter-service/voter-service/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../voter-service/voter-service/target/classes/com/votingsystem/voterservice/controller/VoteController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../voter-service/voter-service/target/classes/com/votingsystem/voterservice/controller/VoteController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../voter-service/voter-service/target/classes/com/votingsystem/voterservice/controller/VoterController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../voter-service/voter-service/target/classes/com/votingsystem/voterservice/controller/VoterController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../voter-service/voter-service/target/classes/com/votingsystem/voterservice/feignController/CandidateController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../voter-service/voter-service/target/classes/com/votingsystem/voterservice/feignController/CandidateController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../voter-service/voter-service/target/classes/com/votingsystem/voterservice/feignController/ConstituencyController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../voter-service/voter-service/target/classes/com/votingsystem/voterservice/feignController/ConstituencyController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../voter-service/voter-service/target/classes/com/votingsystem/voterservice/feignController/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../voter-service/voter-service/target/classes/com/votingsystem/voterservice/feignController/UserController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../voter-service/voter-service/target/classes/com/votingsystem/voterservice/resources/ModelToResponse.class" beforeDir="false" afterPath="$PROJECT_DIR$/../voter-service/voter-service/target/classes/com/votingsystem/voterservice/resources/ModelToResponse.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../voter-service/voter-service/target/classes/com/votingsystem/voterservice/service/VoterService.class" beforeDir="false" afterPath="$PROJECT_DIR$/../voter-service/voter-service/target/classes/com/votingsystem/voterservice/service/VoterService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../voter-service/voter-service/target/classes/com/votingsystem/voterservice/service/VotesService.class" beforeDir="false" afterPath="$PROJECT_DIR$/../voter-service/voter-service/target/classes/com/votingsystem/voterservice/service/VotesService.class" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+        <option value="Interface" />
+        <option value="HTML File" />
+        <option value="Enum" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../user-candidate/candidate-service" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="Use Maven wrapper" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
+  <component name="ProjectId" id="2TOEiHWYSlFq65XRlwQ4OeyYa5W" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "develop",
+    "jdk.selected.JAVA_MODULE": "20",
+    "last_opened_file_path": "/home/dev/Downloads/api-gateway voting/pom.xml",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "inlay.hints",
+    "spring.configuration.checksum": "71c6fabea8cf244e0f767002c01bd3c4",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.voting.system.userservice.model" />
+      <recent name="com.votingsystem.constituencyservice.model" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/../frontend-service/src/main/resources/templates" />
+      <recent name="$PROJECT_DIR$/../frontend-service/src/main/java/com/votingsystem/frontendservice/feignController" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/../frontend-service/Frontend-service/src/main/resources/static/ui" />
+      <recent name="$PROJECT_DIR$/../frontend-service/src/main/resources/templates" />
+      <recent name="$PROJECT_DIR$/../frontend-service/src/main/resources/static" />
+      <recent name="$PROJECT_DIR$/../test-project/Voting-System/user-service/src/main/resources/templates" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.votingsystem.frontendservice.feignController" />
+    </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn package" />
+      <command value="mvn clean" />
+      <command value="mvn install" />
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.FrontendServiceApplication">
+    <configuration name="ApiGatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="api-gateway" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.voting.system.apigateway.ApiGatewayApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CommonRepositoryApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="common-repository" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.voting.system.commonrepository.CommonRepositoryApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConstituencyServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <module name="constituency-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.votingsystem.constituencyservice.ConstituencyServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EurekaServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="eureka-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.votingsystem.eurekaservice.EurekaServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FrontendServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="frontend-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.votingsystem.frontendservice.FrontendServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserCandidateApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <module name="user-candidate" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.voting.system.usercandidate.UserCandidateApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <module name="user-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.voting.system.userservice.UserServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="VoterServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <module name="voter-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.votingsystem.voterservice.VoterServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a1e2604c-7a60-4d55-9524-16cae34bc771" name="Changes" comment="" />
+      <created>1690905852070</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1690905852070</updated>
+      <workItem from="1690905853089" duration="188337000" />
+      <workItem from="1692084610738" duration="104982000" />
+      <workItem from="1692595607775" duration="73289000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="SHOW_ROOT_NAMES" value="true" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/../voter-service/voter-service/src/main/java/com/votingsystem/voterservice/service/VoterService.java</url>
+          <line>93</line>
+          <option name="timeStamp" value="86" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/../frontend-service/Frontend-service/src/main/java/com/votingsystem/frontendservice/controller/PollStatusController.java</url>
+          <line>105</line>
+          <option name="timeStamp" value="236" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/../test-project/Voting-System/user-service/src/main/java/com/voting/system/userservice/Utils/PasswordGenerator.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="279" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/../test-project/Voting-System/user-service/src/main/java/com/voting/system/userservice/service/UserService.java</url>
+          <line>414</line>
+          <option name="timeStamp" value="280" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/../test-project/Voting-System/user-service/src/main/java/com/voting/system/userservice/service/UserService.java</url>
+          <line>91</line>
+          <option name="timeStamp" value="281" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/../frontend-service/Frontend-service/src/main/java/com/votingsystem/frontendservice/controller/CandidateController.java</url>
+          <line>73</line>
+          <option name="timeStamp" value="283" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/../frontend-service/Frontend-service/src/main/java/com/votingsystem/frontendservice/controller/CandidateController.java</url>
+          <line>90</line>
+          <option name="timeStamp" value="284" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/../frontend-service/Frontend-service/src/main/java/com/votingsystem/frontendservice/controller/PollStatusController.java</url>
+          <line>180</line>
+          <option name="timeStamp" value="285" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/../test-project/Voting-System/user-service/src/main/java/com/voting/system/userservice/service/UserService.java</url>
+          <line>419</line>
+          <option name="timeStamp" value="291" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/../voter-service/voter-service/src/main/java/com/votingsystem/voterservice/service/VotesService.java</url>
+          <line>42</line>
+          <option name="timeStamp" value="292" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <pin-to-top-manager>
+      <pinned-members>
+        <PinnedItemInfo parentTag="feign.FeignException$Unauthorized" memberName="cause" />
+      </pinned-members>
+    </pin-to-top-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
