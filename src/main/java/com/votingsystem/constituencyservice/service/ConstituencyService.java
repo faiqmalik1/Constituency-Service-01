@@ -100,4 +100,12 @@ public class ConstituencyService extends BaseService {
     }).toList();
     return new ConstituencyListResponseDTO(constituencyResponseDTOList);
   }
+
+  public ResponseDTO createConstituency() {
+    Constituency constituency = new Constituency();
+    constituency.setCreatedAt(new Date());
+    constituency.setHalkaName("DHA");
+    constituencyRepository.save(constituency);
+    return generateSuccessResponse();
+  }
 }

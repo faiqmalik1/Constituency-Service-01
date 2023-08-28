@@ -58,5 +58,9 @@ public class ConstituencyController {
     return constituencyService.retrieveConstituencies();
   }
 
+  @PostMapping("/create")
+  public ResponseDTO createConstituency() {
+    return constituencyService.createConstituency();
+  }
 
 }

@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.votingsystem.constituencyservice.ConstituencyServiceApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 5.559 s - in com.votingsystem.constituencyservice.ConstituencyServiceApplicationTests
