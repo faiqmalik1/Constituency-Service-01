@@ -59,7 +59,7 @@ public class ConstituencyController {
   }
 
   @PostMapping("/create")
-  public ResponseDTO createConstituency() {
+  public ConstituencyResponseDTO createConstituency() {
     return constituencyService.createConstituency();
   }
 

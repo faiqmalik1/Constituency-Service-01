@@ -4,6 +4,7 @@ import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.web.bind.annotation.CookieValue;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestHeader;
+import resources.user.UserResponseDTO;
 import resources.user.ValidateResponseDTO;
 
 
@@ -18,5 +19,4 @@ public interface UserController {
    */
   @GetMapping(value = "/users/validate")
   public ValidateResponseDTO validateToken(@CookieValue("Authorization") String token);
-
 }

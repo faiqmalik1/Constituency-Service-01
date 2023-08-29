@@ -1,12 +1,14 @@
 package com.votingsystem.constituencyservice.service;
 
 import CustomException.CommonException;
+import com.votingsystem.constituencyservice.feignController.UserController;
 import com.votingsystem.constituencyservice.feignController.VoterController;
 import com.votingsystem.constituencyservice.model.Constituency;
 import com.votingsystem.constituencyservice.model.Pooling;
 import com.votingsystem.constituencyservice.repository.ConstituencyRepository;
 import com.votingsystem.constituencyservice.repository.PoolingRepository;
 import constants.ReturnMessage;
+import org.apache.catalina.User;
 import org.springframework.http.HttpStatus;
 import resources.ResponseDTO;
 import resources.constituency.ConstituencyListResponseDTO;
@@ -17,6 +19,7 @@ import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 import resources.BaseService;
 import resources.constituency.ConstituencyResponseDTO;
+import resources.user.UserResponseDTO;
 
 import java.util.Date;
 import java.util.List;
@@ -27,6 +30,7 @@ import java.util.Optional;
 public class ConstituencyService extends BaseService {
 
   private final ConstituencyRepository constituencyRepository;
+  private final UserController userController;
   private final PoolingRepository poolingRepository;
   private final VoterController voterController;
 
@@ -101,11 +105,11 @@ public class ConstituencyService extends BaseService {
     return new ConstituencyListResponseDTO(constituencyResponseDTOList);
   }
 
-  public ResponseDTO createConstituency() {
+  public ConstituencyResponseDTO createConstituency() {
     Constituency constituency = new Constituency();
     constituency.setCreatedAt(new Date());
     constituency.setHalkaName("DHA");
-    constituencyRepository.save(constituency);
-    return generateSuccessResponse();
+    constituency = constituencyRepository.save(constituency);
+    return ModelToResponse.parseConstituencyToResponse(constituency, 0);
   }
 }

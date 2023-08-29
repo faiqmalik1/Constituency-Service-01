@@ -92,6 +92,9 @@ public class PoolingService extends BaseService {
     List<Pooling> sortedPollingList = pollingList.stream()
             .sorted(Comparator.comparing(Pooling::getEndDate).reversed())
             .toList();
+    if (sortedPollingList.isEmpty()) {
+      return null;
+    }
     return ModelToResponse.parsePoolingToPoolingResponse(sortedPollingList.get(0));
   }
 
